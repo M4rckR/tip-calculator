@@ -1,1 +1,1 @@
-### Amigo, como costo hace esto
+### Amigo, como costo hacer esto
