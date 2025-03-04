@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+@theme {
+
+    /* FONTS */
+    --font-space-mono: "Space Mono", monospace;
+
+    /* COLORS */
+    --color-m-strong-cyan: hsl(172, 67%, 45%);
+    --color-m-dark-cyan: hsl(183, 100%, 15%);
+    --color-m-cyan-grayish: hsl(186, 14%, 43%);
+    --color-m-cyan-grayish-light: hsl(185, 41%, 84%);
+    --color-m-cyan-grayish-very-light: hsl(189, 41%, 97%);
+    --color-m-cyan-grayish-white: hsl(0, 0%, 100%);
+}
+
+body {
+    @apply font-bold
+}
