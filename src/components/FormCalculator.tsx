@@ -32,7 +32,7 @@ export const FormCalculator = () => {
         <form className="p-8 flex flex-col md:flex-row gap-6 items-start">
             <div className="space-y-4 w-full h-full md:w-1/2">
                 <InputForm
-                    urlImage="/src/assets/img/icon-dollar.svg"
+                    urlImage="/img/icon-dollar.svg"
                     label="Bill"
                     id="bill"
                     type= "inputText"
@@ -47,7 +47,7 @@ export const FormCalculator = () => {
                     tipFormatInput = {tipFormatInput}
                 />
                 <InputForm
-                    urlImage="/src/assets/img/icon-person.svg"
+                    urlImage="/img/icon-person.svg"
                     label="Number of People"
                     id="numberPeople"
                     type = "inputText"
